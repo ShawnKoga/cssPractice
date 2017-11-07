@@ -1,0 +1,45 @@
+/* ----- HERO SECTION ----- */
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    /* padding-top: 10vh;
+    padding-bottom: 100vh; */
+}
+
+.hero-container {
+    width: 100%;
+    height: 100vh;
+    transform: translateZ(-1px) scale(1);
+    perspective: 1px;
+}
+
+.background {
+    transform: translateZ(-2px) scale(3);
+    background-image: url('https://www.walldevil.com/wallpapers/a71/busy-city-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.banner {
+    transform: translateZ(-1px) scale(2);
+    background: rgba(131, 131, 131, 0.8);
+    width: 100%;
+    height: 40%;
+}
+
+.text {
+    transform: translateZ(0);
+    color: white;
+    font-size: 90px;
+}
+
+
+/* ----- INFO SECTION ----- */
+.info {
+    width: 100%;
+    height: 100vh;
+}
